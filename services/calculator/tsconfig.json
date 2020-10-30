@@ -3,7 +3,8 @@
 
   "compilerOptions": {
     "outDir": "lib",
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
+    "resolveJsonModule": true
   },
 
   "include": ["src/**/*"],
