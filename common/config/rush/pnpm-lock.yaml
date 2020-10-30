@@ -1,0 +1,39 @@
+dependencies:
+  '@rush-temp/calculator': 'file:projects/calculator.tgz'
+  '@tsconfig/node14': 1.0.0
+  '@types/node': 14.14.6
+  typescript: 4.0.5
+lockfileVersion: 5.1
+packages:
+  /@tsconfig/node14/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-RKkL8eTdPv6t5EHgFKIVQgsDapugbuOptNd9OOunN/HAkzmmTnZELx1kNCK0rSdUYGmiFMM3rRQMAWiyp023LQ==
+  /@types/node/14.14.6:
+    dev: false
+    resolution:
+      integrity: sha512-6QlRuqsQ/Ox/aJEQWBEJG7A9+u7oSYl3mem/K8IzxXG/kAGbV1YPD9Bg9Zw3vyxC/YP+zONKwy8hGkSt1jxFMw==
+  /typescript/4.0.5:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
+  'file:projects/calculator.tgz':
+    dependencies:
+      '@tsconfig/node14': 1.0.0
+      '@types/node': 14.14.6
+      typescript: 4.0.5
+    dev: false
+    name: '@rush-temp/calculator'
+    resolution:
+      integrity: sha512-oH+MHgcD3FJpXqU1j7W8xeoP6SZir+dzAAnytOH+YiXTXx0pDdCqSWIePC4LQqitMM93b/mqY+NJvVONh2+1hw==
+      tarball: 'file:projects/calculator.tgz'
+    version: 0.0.0
+registry: ''
+specifiers:
+  '@rush-temp/calculator': 'file:./projects/calculator.tgz'
+  '@tsconfig/node14': ~1.0.0
+  '@types/node': ~14.14.6
+  typescript: ~4.0.5

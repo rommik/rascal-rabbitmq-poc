@@ -1,0 +1,7 @@
+# Ignore Everything
+*
+
+# Except
+!node_modules
+!lib
+!package.json
