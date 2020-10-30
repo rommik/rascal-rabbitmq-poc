@@ -3,7 +3,10 @@ version: '2'
 services:
   calculator:
     build: ./services/calculator
-
+    depends_on: 
+        - rabbitmq
+    networks:
+        - bus
   rabbitmq:
     image: 'rabbitmq:3-management'
     ports:
@@ -11,3 +14,7 @@ services:
       - '5672:5672'
       - '25672:25672'
       - '15672:15672'
+    networks:
+        - bus
+networks: 
+    bus: {}
